@@ -9,6 +9,11 @@
 .nav__list {
   list-style-type: none;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .nav__item {
@@ -35,4 +40,7 @@
   text-transform: uppercase;
   color: $white;
   padding: 17px 5px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
